@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fantasy Story World</title>
+  <meta name="description" content="Explore original fantasy stories, dragons and animated adventures.">
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #101827;
+      color: white;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+    header, main, footer {
+      max-width: 800px;
+      margin: 20px auto;
+    }
+    header, main {
+      padding: 24px;
+      background: #1e293b;
+      border-radius: 12px;
+    }
+    a { color: #7dd3fc; }
+    .story {
+      padding: 16px;
+      background: #334155;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fantasy Story World</h1>
+    <p>Discover magical worlds, dragons and heroes.</p>
+    <nav>
+      <a href="#stories">Stories</a> |
+      <a href="#about">About</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="stories">
+      <h2>Our Latest Story</h2>
+      <div class="story">
+        <h3>The Last Dragon</h3>
+        <p>
+          In a forgotten kingdom, a young hero discovers
+          a mysterious dragon whose secret could change the world.
+        </p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We share original fantasy stories and animation adventures.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Contact information will be added here.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Fantasy Story World</p>
+  </footer>
+</body>
+</html>
